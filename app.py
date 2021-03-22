@@ -468,5 +468,5 @@ if __name__ == "__main__":
     commodity_list.append(urad)
     wheat = Commodity(commodity_dict["wheat"])
     commodity_list.append(wheat)
-
+    app.debug = True
     app.run()
